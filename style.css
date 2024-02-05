@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #000;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.clock{
+    color:darkgoldenrod;
+    font-size: 70px;
+}
+h2{
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 20px;
+}
